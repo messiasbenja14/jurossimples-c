@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"function_jurossimples.c"
 
-void main(){
+int main(){
     float c, tx, m;
     int t;
 
@@ -15,8 +15,10 @@ void main(){
     scanf("%d",& t);
  
 
-   m = mon(c, tx, t);
+    m = mon(c, tx, t);
 
     printf("este é o montante%.2f\n",m);
     printf("\nfeito por Benjamim messias");
+    
+    return 0;
 }
