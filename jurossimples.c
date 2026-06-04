@@ -3,7 +3,7 @@
 
 void main(){
 
-    int c, tx, t;
+    int c, tx, t, m;
 
     printf("digite um valor\n");
     scanf("%f",& c);
@@ -18,5 +18,5 @@ void main(){
    m = montante(c, tx, t, j);
 
     printf("este é o montante\n%f",m);
-    printf("\n\nfeito por Benjamim messias");
+    printf("\nfeito por Benjamim messias");
 }
