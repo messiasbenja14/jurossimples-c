@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-int mon (int c, int tx, int t)
+int mon (float c, float tx, int t)
 {
-    int j;
+    float j;
     
     j = c * (tx / 100) * t;
     return c + j;
