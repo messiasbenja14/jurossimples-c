@@ -4,9 +4,9 @@
 
 void main()
 {
-    assert(m(100, 0.5, 10) == 500);
-    assert(m(100, 0.25, 12) == 300);
-    assert(m(100, 0.75, 5) == 375);
+    assert(mon(100, 50, 10) == 600);
+    assert(mon(100, 25, 12) == 400);
+    assert(mon(100, 75, 5) == 475);
 
     printf("teste executado com sucesso!");
 }
