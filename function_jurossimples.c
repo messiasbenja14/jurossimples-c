@@ -1,4 +1,3 @@
-#include<stdio.h>
 
 int mon (float c, float tx, int t)
 {
