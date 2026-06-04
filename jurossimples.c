@@ -3,8 +3,7 @@
 
 void main(){
 
-    float c, tx, m, t;
-    int tempo;
+    int c, tx, t;
 
     printf("digite um valor\n");
     scanf("%f",& c);
@@ -13,10 +12,10 @@ void main(){
     scanf("%f",& tx);
 
     printf("digite um periodo de tempo\n");
-    scanf("%d",& tempo);
+    scanf("%d",& t);
  
 
-   m = montante(c, tx, tempo);
+   m = montante(c, tx, t, j);
 
     printf("este é o montante\n%f",m);
     printf("\n\nfeito por Benjamim messias");
