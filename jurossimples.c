@@ -15,7 +15,7 @@ void main(){
     scanf("%d",& t);
  
 
-   m = montante(c, tx, t, j);
+   m = mon(c, tx, t, j);
 
     printf("este é o montante\n%f",m);
     printf("\nfeito por Benjamim messias");
