@@ -2,14 +2,14 @@
 #include"function_jurossimples.c"
 
 void main(){
-
-    int c, tx, t, m;
+    float c, tx, m;
+    int t;
 
     printf("digite um valor\n");
-    scanf("%d",& c);
+    scanf("%f",& c);
 
     printf("digite uma taxa\n");
-    scanf("%d",& tx);
+    scanf("%f",& tx);
 
     printf("digite um periodo de tempo\n");
     scanf("%d",& t);
@@ -17,6 +17,6 @@ void main(){
 
    m = mon(c, tx, t);
 
-    printf("este é o montante\n%d",m);
+    printf("este é o montante%.2f\n",m);
     printf("\nfeito por Benjamim messias");
 }
