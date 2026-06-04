@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int m (int c, int tx, int t);
+int mon (int c, int tx, int t, int m);
 {
     int j;
     
