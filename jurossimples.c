@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include"function_jurossimples.c"
 
-int main(){
+void main(){
 
-    float c, tx, m;
+    float c, tx, m, t;
     int tempo;
 
     printf("digite um valor\n");
@@ -20,6 +20,4 @@ int main(){
 
     printf("este é o montante\n%f",m);
     printf("\n\nfeito por Benjamim messias");
-
-    return 0;
 }
