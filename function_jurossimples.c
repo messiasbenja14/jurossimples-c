@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-float montante (float c, float tx, int tempo);
+int m (int c, int tx, int tempo);
 {
-    float j;
+    int j;
     
     j = c * (tx / 100) * tempo;
     m = c + j;
