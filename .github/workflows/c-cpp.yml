@@ -13,8 +13,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: compile
+
+    - name: compile test
       run: gcc test_jurossimples.c -o test_jurossimples
-    - name: execute
+
+    - name: execute test
       run: ./test_jurossimples
-  
+
+    - name: compile main
+      run: gcc jurossimples.c -o jurossimples
+
+    - name: execute main
+      run: ./jurossimples 100 50 10
+
+    - name: mostrar o conteúdo do arquivo criado
+      run: cat jurossimples.txt
